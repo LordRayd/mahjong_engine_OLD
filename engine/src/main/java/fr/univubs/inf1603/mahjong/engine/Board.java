@@ -53,7 +53,7 @@ public class Board {
 
     /**
      * 
-     * @return 
+     * @return The collection of zones
      */
     public ArrayList<Zone> getZones() {
         return this.listZones;
@@ -61,7 +61,7 @@ public class Board {
 
     /**
      * 
-     * @return 
+     * @return The collection of tiles
      */
     public ArrayList<AbstractTile> getTiles() {
         return this.listTiles;
