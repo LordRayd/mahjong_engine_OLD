@@ -19,10 +19,13 @@ public class Board {
     private ArrayList<AbstractTile> listTiles;
 
     /**
-     * 
+     * Constructor of Board
+     * @param zones The collection of zones
+     * @param tiles The collection of tiles
      */
-    public Board() {
-
+    public Board(ArrayList<Zone> zones, ArrayList<AbstractTile> tiles) {
+        this.listTiles = tiles;
+        this.listZones = zones;
     }
 
     /**
@@ -52,7 +55,7 @@ public class Board {
     }
 
     /**
-     * 
+     * Allows to return all the zones contained in the Board
      * @return The collection of zones
      */
     public ArrayList<Zone> getZones() {
@@ -60,7 +63,7 @@ public class Board {
     }
 
     /**
-     * 
+     * Allows to return all the tiles contained in the Board
      * @return The collection of tiles
      */
     public ArrayList<AbstractTile> getTiles() {
