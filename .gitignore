@@ -1,0 +1,4 @@
+/engine/target/
+/engine/.settings/
+gitAddPlusCommit.sh
+getFromBranchMaster.sh

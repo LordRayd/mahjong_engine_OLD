@@ -1,4 +1,4 @@
-git add $1  
+git add .  
 git status 
-git commit $2
+git commit -m $1
 git push
